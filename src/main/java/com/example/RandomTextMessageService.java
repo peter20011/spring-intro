@@ -1,9 +1,10 @@
 package com.example;
 
 import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
 
 import java.util.Random;
-@Configuration
+@Component("messageService1")
 public class RandomTextMessageService implements MessageService{
 
     String[] news= {"news1","news2","news3","news4","news5","news6","news7","news8","news9","news10"};
